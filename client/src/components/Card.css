@@ -1,0 +1,238 @@
+.card-container { 
+    display: inline-block;
+    padding: 20px;
+    margin: 0.5%;
+    width: 300px;
+    font-family: 'Roboto', sans-serif;
+    -webkit-text-stroke: 1px black; 
+    text-align: center; 
+    border-radius: 5%;
+    }
+
+  .card-container h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .card-container img {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: -10px;
+  }
+  
+  .card-container .types-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -20px;    
+  }
+  
+  .card-container .types-container span {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 5px;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  /*---------------------------------- Bloques referidos a los fondos por tipo ----------------------------*/
+
+  .card-container.fire {
+    background-image: url("https://tiermaker.com/images/templates/pokmon-tcg-fire-energy-650192/6501921630775233.jpg");
+    background-size: cover;  
+  }
+  
+  .card-container.water {
+    background-image: url("https://assets.pokemon.com/assets/cms2/img/cards/web/BW1/BW1_EN_107.png");
+    background-size: cover;
+  }
+  
+  .card-container.grass {
+    background-image: url("https://den-cards.pokellector.com/142/Grass-Energy.XY.132.png");
+    background-size: cover;    
+  } 
+  
+  .card-container.normal {
+    background-image: url("https://i.pinimg.com/236x/f8/27/b7/f827b7bb4033186e6e5ce7d09274e323--loic.jpg");
+    background-size: cover;
+    background-position: center top -25px;
+  } 
+
+  .card-container.fighting {
+    background-image: url("https://product-images.tcgplayer.com/208032.jpg");
+    background-size: cover;
+  } 
+
+  .card-container.electric {
+    background-image: url("https://product-images.tcgplayer.com/264250.jpg");
+    background-size: cover;
+  } 
+
+  .card-container.bug {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b3c54c95-8c44-4e5b-93ae-389fe559bcbf/d3b40b8-c4a5db7f-e084-4676-815e-9fbc002300d1.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2IzYzU0Yzk1LThjNDQtNGU1Yi05M2FlLTM4OWZlNTU5YmNiZlwvZDNiNDBiOC1jNGE1ZGI3Zi1lMDg0LTQ2NzYtODE1ZS05ZmJjMDAyMzAwZDEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.zc9mqPVqao225SfpAAVd_6qQEgE2ljjHe7Tq_6p8bYI");
+    background-size: cover;
+    background-position: center top -20px;
+  } 
+
+  .card-container.ice {
+    background-image: url("https://i.pinimg.com/564x/fa/25/13/fa2513183b6523091379334156acfccd.jpg");
+    background-size: cover;
+    background-position: center top -20px;
+  } 
+
+  .card-container.poison {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b3c54c95-8c44-4e5b-93ae-389fe559bcbf/d3b3zuh-dd6f59e2-4113-4bc4-afd9-113ac8c03a36.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2IzYzU0Yzk1LThjNDQtNGU1Yi05M2FlLTM4OWZlNTU5YmNiZlwvZDNiM3p1aC1kZDZmNTllMi00MTEzLTRiYzQtYWZkOS0xMTNhYzhjMDNhMzYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.qoQnagBq2l0PWgZZAobwa6wqmSDc9ofTJ_V7_TNDqGg");
+    background-size: cover;
+    background-position: center top -20px;
+  } 
+
+  .card-container.ground {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b3c54c95-8c44-4e5b-93ae-389fe559bcbf/d3b3zz6-0bc5e5d0-033f-4339-bce3-a7bfa70091d5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2IzYzU0Yzk1LThjNDQtNGU1Yi05M2FlLTM4OWZlNTU5YmNiZlwvZDNiM3p6Ni0wYmM1ZTVkMC0wMzNmLTQzMzktYmNlMy1hN2JmYTcwMDkxZDUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.WX_Tacv_iKvZ9Ktg624fmj5k8qo2zmFpBr0drPwO91I");
+    background-size: cover;
+    background-position: center top -20px;
+  } 
+
+  .card-container.flying {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b3c54c95-8c44-4e5b-93ae-389fe559bcbf/d3b403a-087815db-431c-43cf-afd9-c84f44bf9c79.png/v1/fill/w_293,h_412,strp/glr191___flying_energy_by_aschefield101_d3b403a-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDEyIiwicGF0aCI6IlwvZlwvYjNjNTRjOTUtOGM0NC00ZTViLTkzYWUtMzg5ZmU1NTliY2JmXC9kM2I0MDNhLTA4NzgxNWRiLTQzMWMtNDNjZi1hZmQ5LWM4NGY0NGJmOWM3OS5wbmciLCJ3aWR0aCI6Ijw9MjkzIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.xQE8SHEoX_2BZK9jsoZMKEz92vZLixOpG1iXYQSN5PA");
+    background-size: cover;
+    background-position: center top -20px;
+  } 
+
+  .card-container.psychic {
+    background-image: url("https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61FncwgqhML._AC_UF894,1000_QL80_.jpg");
+    background-size: cover;
+  } 
+
+  .card-container.rock {
+    background-image: url("http://pm1.narvii.com/6796/7135b456f5858b03ead0b248a6564bb514855219v2_00.jpg");
+    background-size: cover;
+    background-position: center top -20px;
+  } 
+
+  .card-container.ghost {
+    background-image: url("https://i.pinimg.com/564x/d1/90/52/d19052f82be32cf52e76ff426161b56f.jpg");
+    background-size: cover;
+    background-position: center top -20px;
+  } 
+
+  .card-container.dragon {
+    background-image: url("https://i.pinimg.com/564x/12/9b/c6/129bc657af5f04ef4d9b0e604f2235e9.jpg");
+    background-size: cover;
+  } 
+
+  .card-container.dark {
+    background-image: url("https://i.pinimg.com/564x/12/9b/c6/129bc657af5f04ef4d9b0e604f2235e9.jpg");
+    background-size: cover;
+  } 
+
+  .card-container.steel {
+    background-image: url("https://cdn.shopify.com/s/files/1/0606/5494/4498/products/82327c65-1036-5de5-bad7-bedc6cc5475a_a989a739-9610-45fa-8ab1-0f940d70c2bd_800x.jpg?v=1675931285");
+    background-size: cover;
+  } 
+
+  .card-container.fairy {
+    background-image: url("https://cdn.shopify.com/s/files/1/0606/5494/4498/products/13febc4f-f0ac-5b30-92aa-2c4c545fa989_5b4ac63a-290c-4673-bb92-5d3e28bbd4de_800x.png?v=1675918845");
+    background-size: cover;
+  } 
+
+  .card-container.shadow {
+    background-image: url("https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1123683.jpg");
+    background-size: cover;
+  } 
+  
+  .card-container.shadow {
+    background-image: url("https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1123683.jpg");
+    background-size: cover;
+  } 
+
+  .card-container.unknown {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b3c54c95-8c44-4e5b-93ae-389fe559bcbf/d5l6qpf-7d43a6f6-fe98-436a-9b97-0b729a644f0e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2IzYzU0Yzk1LThjNDQtNGU1Yi05M2FlLTM4OWZlNTU5YmNiZlwvZDVsNnFwZi03ZDQzYTZmNi1mZTk4LTQzNmEtOWI5Ny0wYjcyOWE2NDRmMGUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.THZ9MbznT0sQrXUfjDCBXexIs0cdG-4QE2FP-HgeAnE");
+    background-size: cover;
+  } 
+
+  /*------------------------------ Bloques referidos a los renders de Types -----------------------*/
+
+  .card-container .types-container .type-normal {
+    background-color: #A8A878;
+  }
+  
+  .card-container .types-container .type-fire {
+    background-color: #F08030;
+  }
+  
+  .card-container .types-container .type-water {
+    background-color: #6890F0;
+  }
+  
+  .card-container .types-container .type-grass {
+    background-color: #78C850;
+  }
+  
+  .card-container .types-container .type-electric {
+    background-color: #F8D030;
+  }
+  
+  .card-container .types-container .type-ice {
+    background-color: #98D8D8;
+  }
+  
+  .card-container .types-container .type-fighting {
+    background-color: #C03028;
+  }
+  
+  .card-container .types-container .type-poison {
+    background-color: #A040A0;
+  }
+  
+  .card-container .types-container .type-ground {
+    background-color: #E0C068;
+  }
+  
+  .card-container .types-container .type-flying {
+    background-color: #A890F0;
+  }
+  
+  .card-container .types-container .type-psychic {
+    background-color: #F85888;
+  }
+  
+  .card-container .types-container .type-bug {
+    background-color: #A8B820;
+  }
+  
+  .card-container .types-container .type-rock {
+    background-color: #B8A038;
+  }
+  
+  .card-container .types-container .type-ghost {
+    background-color: #705898;
+  }
+  
+  .card-container .types-container .type-dragon {
+    background-color: #7038F8;
+  }
+  
+  .card-container .types-container .type-dark {
+    background-color: #705848;
+  }
+  
+  .card-container .types-container .type-steel {
+    background-color: #B8B8D0;
+  }
+  
+  .card-container .types-container .type-fairy {
+    background-color: #EE99AC;
+  }
+
+  .card-container .types-container .type-shadow {
+    background-color: #705848;
+  }
+
+  .card-container .types-container .type-unknown {
+    background-color: #E0C068;
+  }

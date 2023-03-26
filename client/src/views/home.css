@@ -1,0 +1,131 @@
+.home{
+    background-image: url("https://www.solofondos.com/wp-content/uploads/2016/01/Pokemon-wallpaper-4K.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+.div-carga{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  height: auto;
+  width: 100%;
+}
+
+.div-carga img {
+  max-width: 100%;
+}
+
+.div-vistas{
+    display: flex;
+}
+
+
+.first-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;    
+}
+
+.renders{
+    display: flex;
+    flex-direction: column;
+    margin-top: -2%;
+    text-align: center;
+}
+
+.blanco.false{
+    width: 30%;
+}
+
+.blanco.true{
+    display: none;
+}
+
+.filtros.true{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1%;    
+    top: 15%;
+    left: 1%;    
+    text-align: left;
+    width:12%;
+    background-color: rgba(255, 255, 255, 0.4);
+    font-weight: bold;
+    border: 0.5px solid black;
+    border-radius: 2%; 
+}
+
+.filtros.false{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1%;    
+    top: 15%;
+    left: 1%;    
+    text-align: left;
+    width:12%;
+    background-color: rgba(255, 255, 255, 0.4);
+    font-weight: bold;
+    border: 0.5px solid black;
+    border-radius: 2%;
+    position: fixed;
+    float: left;
+    overflow-y: auto;    
+}
+
+.renderizado{
+    text-align: right;
+}
+
+ul{
+    list-style: none;
+    text-align: center;    
+  }
+
+#boton-filtro{
+    width: 70%;
+    padding: 1%;
+    border-radius: 50px;
+}
+
+#boton-filtro:hover {
+    background-color: goldenrod;
+  }
+
+.paginado{
+  align-self:center;
+  display: flex;
+  flex-direction: column;
+  width:10%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.oculto{
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  bottom: 2%;
+}
+
+
+.boton-paginado{
+  width: 100%;
+  border-radius: 50px;
+}
+
+.boton-paginado:hover{
+  background-color: goldenrod;
+}
+
+.numero-paginas{
+  font-size: 1.8vw;
+  font-weight: bold;
+  color: goldenrod;
+  -webkit-text-stroke: 1px black; 
+}
