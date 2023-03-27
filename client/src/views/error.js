@@ -1,10 +1,14 @@
-
+import "./error.css";
+import { useNavigate } from "react-router-dom";
 
 const Error_Page = ()=>{
 
+    const navigate = useNavigate();
+
     return(
-        <div>
-            <h1>Soy el 404</h1>
+        <div className="pagina"> 
+            <img src="/luxio.jpg" alt="404" />
+            <button onClick={() => navigate("/home")}>Volver al Home</button>
         </div>       
     )
 }

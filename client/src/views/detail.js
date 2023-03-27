@@ -1,13 +1,13 @@
 import "./detail.css";
 import { useSelector, useDispatch } from "react-redux";
 import { useEffect } from 'react';
-import { useParams, useHistory } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { getDetail, clearDetail } from "../redux/actions";
 
 const Detail_Page = ()=>{
     const dispatch = useDispatch();    
     const { id } = useParams();
-    const history = useHistory();
+    const navigate = useNavigate();
     
       useEffect(() => {
         dispatch(getDetail(id));
@@ -41,7 +41,7 @@ const Detail_Page = ()=>{
             </div>
           </div>
           <div className="button-back">
-            <button onClick={() => history.goBack()}>Volver al Home</button>  
+            <button onClick={() => navigate('/home')}>Volver al Home</button>  
           </div> 
         </div>       
     );

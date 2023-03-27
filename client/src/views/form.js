@@ -1,13 +1,13 @@
 import "./form.css";
 import React from "react";
 import { useState } from "react"
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import validacion from "../components/validation";
 import createPokemons from "../components/createPokemon";
 
 const Form_Page = ()=>{
 
-    const history = useHistory();
+    const navigate = useNavigate();
     const [selectedTypes, setSelectedTypes] = useState([]);
     const [errors, setErrors] = useState({});  
     const [createData, setCreateData] = useState({
@@ -84,7 +84,7 @@ const Form_Page = ()=>{
           } else {            
             await createPokemons(createDataJson);
             console.log('createPokemons llamado correctamente');
-            history.push('/home');
+            navigate('/home');
           };
         }
 
@@ -193,7 +193,7 @@ const Form_Page = ()=>{
            </div>
       </div>     
 
-            <button onClick={() => history.goBack()}>Volver al Home</button>
+            <button onClick={() => navigate("/home")}>Volver al Home</button>
             
       </div>       
     )

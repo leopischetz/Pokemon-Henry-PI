@@ -1,16 +1,13 @@
-import React from "react";
-import { useHistory } from "react-router-dom";
-import { useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 
 const About_Page = ()=>{
-    const history = useHistory();
-    const allPokemones = useSelector((state) => state.allPokemons);
-    console.log(allPokemones);
 
+    const navigate = useNavigate();
+    
     return(
         <div>
             <h1>Soy el About</h1>
-            <button onClick={() => history.goBack()}>Volver al Home</button>
+            <button onClick={() => navigate("/home")}>Volver al Home</button>
         </div>       
     )
 }
