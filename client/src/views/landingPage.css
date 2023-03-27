@@ -66,6 +66,23 @@
     text-decoration: none;
 }
 
+.btn-ingresar{
+    padding: 0.5%;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color:black;    
+}
+
+.btn-ingresar:hover{
+    background-color: goldenrod;
+}
+
+.btn-ingresar a{
+    color:black;
+    text-decoration: none;
+}
+
 .segundo-true{
     display: none;
 }
@@ -75,3 +92,43 @@
     top:2%;
 }
 
+@media (max-width: 600px) {
+    .landing {
+      background-image: url("https://www.solofondos.com/wp-content/uploads/2016/01/Pokemon-wallpaper-4K.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      font-size: 4vw;
+    }
+  
+    .logotipo {
+      width: 40%;
+      height: auto;
+      margin-top: 2%;
+    }
+  
+    #primer-img {
+      max-width: 80%;
+      height: auto;
+      margin-top: 20%;
+      margin-bottom: 60%;
+    }
+  
+    .btn-comenzar {
+      font-size: 3vw;
+      position: absolute;  
+      bottom: 20%;   
+    }
+
+    .btn-ingresar {
+        font-size:3vw;
+           
+      }
+  
+    .segundo-true {
+      display: none;
+    }
+  
+    .segundo-false {      
+      display: block;      
+    }
+  }

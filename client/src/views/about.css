@@ -1,0 +1,80 @@
+.div-general{
+    background-color: rgba(255, 255, 255, 0.3);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke: 1px black; 
+    margin: 5%;
+}
+
+.div-general button{
+    padding: 0.5%;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color:black;    
+}
+
+.div-general button:hover{
+    background-color: goldenrod;
+}
+
+.div-general button a{
+    color:black;
+    text-decoration: none;
+}
+
+
+.div-flex img{
+    width: 20%;
+    height: 20%;
+}
+
+.div-textos{
+    flex-basis: 50%;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.div-textos h1{
+    font-size: 4vw;
+}
+.div-textos h3{
+    text-align: left;
+    font-size: 2vw;
+}
+
+.herramientas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.herramientas ul{
+    font-size: 2vw;
+}
+
+@media screen and (max-width: 600px) {
+    .div-general button {
+      font-size: 3vw;
+    }
+    .div-flex img{
+      width: 50%; 
+      height: 50%;
+    }
+    .div-textos{
+      margin-left: 0%; 
+    }
+    .div-textos h1{
+      font-size: 8vw; 
+    }
+    .div-textos h3{
+      font-size: 4vw; 
+    }
+    .herramientas{
+      margin-top: 10%; 
+    }
+    .herramientas ul{
+      font-size: 4vw; 
+    }
+  }

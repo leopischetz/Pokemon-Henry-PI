@@ -101,6 +101,39 @@
     color: #fff;
   }
 
+  @media (max-width: 600px) {
+    
+    .general-form button {
+    font-size: 2vw;
+    padding: 1%;
+    }
+    
+    #titulo {
+    font-size: 6vw;
+    }
+    
+    .orden {
+    flex-direction: column;
+    align-items: center;
+    margin: 3%;
+    }
+    
+    .div-form {
+    font-size: 3vw;
+    font-weight: bold;
+    }
+    
+    .input-text {
+    width: 70%;
+    }
+    
+    .orden-dos {
+    display: none;
+    }
+    
+   
+  }
+
 /*---------------------------------- Bloques referidos a los fondos por tipo ----------------------------*/
 
 .preview.fire {

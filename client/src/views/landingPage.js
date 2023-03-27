@@ -36,7 +36,7 @@ const LandingPage = () => {
         <h3>En ella podrás buscar a tus Pokemones preferidos de la serie o de los juegos, 
           también podrás analizarlos en nuestra Pokedex haciendo click sobre ellos, y no solo eso...</h3>
         <h1>¡También podrás crear el Pokémon que siempre has querido tener!</h1>         
-        <Link to="/home"><button className="btn-comenzar" onClick={handleOff} >Ingresar</button></Link>
+        <Link to="/home"><button className="btn-ingresar" onClick={handleOff} >Ingresar</button></Link>
       </div>
     </div>
   );
