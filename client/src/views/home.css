@@ -18,6 +18,10 @@
   max-width: 100%;
 }
 
+#cargando{
+  display: none;
+}
+
 .div-vistas{
     display: flex;
 }
@@ -131,6 +135,24 @@ ul{
 }
 
 @media (max-width: 600px) {
+
+  .div-carga{
+    width: max-content;
+    height: max-content;
+  }
+
+  #imagen-carga{
+    display: none;
+  }
+
+  #cargando{
+    display: block;
+    width: 90%;
+    height: 100%;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke: 1px black;
+  }
 
   #boton-filtro{
     width: 100%;

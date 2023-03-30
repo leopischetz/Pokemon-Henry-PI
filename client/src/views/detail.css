@@ -70,26 +70,30 @@
     }
 
     .media-pokedex{
-        margin:5%;
+        margin:2%;
+        margin-top: 22%;
     }
 
     .imagen-detail{
-        width: 300px;
+        max-width: 200px;
         height: auto;
-        position: absolute;
-        left:20%;
-        top:50%;
+        position: relative;
+        margin-left: -3%;
+        margin-top: -85%;
+        margin-bottom: 15%;
+        
+        
     }
 
     .texto-dos{
-        font-size: 20px;
+        font-size: 4.5vw;
         font-weight: bold;
         color: white;
         -webkit-text-stroke: 1px black; 
         height: 80%;
         margin-top: -100%;
         margin-bottom: 20%;
-        line-height: 0.8;
+        line-height: 0.6;
     }
     
     .texto-dos h1{
@@ -99,6 +103,7 @@
     
 
     .button-back button{
+        margin-top: -40%;
         border-radius: 50px;
         padding: 1%;
         text-decoration: none;

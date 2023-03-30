@@ -59,10 +59,16 @@ module.exports = (sequelize) => {
       }
     },
     height:{
-      type: DataTypes.INTEGER,      
+      type: DataTypes.INTEGER, 
+      validate:{
+        min:1
+      }     
     },
     weight:{
       type: DataTypes.INTEGER,
+      validate:{
+        min:1
+      }
     }
   },{
     timestamps: false

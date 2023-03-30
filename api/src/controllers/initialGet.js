@@ -8,7 +8,7 @@ const getApiData = async () => {
       let i = 1;
       let pokemones = [];
   
-      while (i < 27) {
+      while (i < 66) {
         const apiData = await axios.get(`${URL}${i}`);
         pokemones.push(apiData);
         i++;

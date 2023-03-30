@@ -70,10 +70,12 @@ const Form_Page = ()=>{
         } else {
           setCreateData({
             ...createData,
-            [event.target.name]: event.target.value
+            [event.target.name]: event.target.value.toLowerCase()
           });
         }
       };
+
+    console.log(createData);
 
     const createDataJson = JSON.stringify(createData);
 

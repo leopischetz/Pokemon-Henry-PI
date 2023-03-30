@@ -52,6 +52,7 @@ const Home_Page = ({ pageActual })=>{
         setFiltroTipoOn(false);
       } else{
         setFiltroTipoOn(true);
+        setPaginaActual(1);
       }
     }
 
@@ -135,12 +136,13 @@ const Home_Page = ({ pageActual })=>{
         }
       };
 
-      const ultimoSearch= buscado;
+    const ultimoSearch= buscado;
 
     if(itemActual.length === 0 && filtroTipoOn===false){
       return(
         <div className="div-carga">
-        <img src="/cargando.png" alt="Cargando..." />
+        <img id="imagen-carga" src="/cargando.png" alt="Cargando..." />
+        <h1 id="cargando">Cargando</h1>
         </div>
       )
     };
